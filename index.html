@@ -30,14 +30,63 @@
         </div>
         <div class="card card--white">
           <form class="form">
-            <input type="text" class="form__input" placeholder="First Name" />
-            <input type="text" class="form__input" placeholder="Last Name" />
-            <input
-              type="email"
-              class="form__input"
-              placeholder="Email Address"
-            />
-            <input type="password" class="form__input" placeholder="Password" />
+            <div class="form__container">
+              <input type="text" class="form__input" placeholder="First Name" />
+              <p class="form__error form__error--fn">
+                First Name cannot be empty
+              </p>
+              <img
+                src="assets/images/icon-error.svg"
+                alt=""
+                class="form__img form__img--fn"
+              />
+            </div>
+
+            <div class="form__container">
+              <input type="text" class="form__input" placeholder="Last Name" />
+              <p class="form__error form__error--ln">
+                Last Name cannot be empty
+              </p>
+              <img
+                src="assets/images/icon-error.svg"
+                alt=""
+                class="form__img form__img--ln"
+              />
+            </div>
+
+            <div class="form__container">
+              <input
+                type="email"
+                class="form__input"
+                id="form__email"
+                placeholder="Email Address"
+              />
+              <p id="test" class="form__error form__error--email">
+                Email cannot be empty
+              </p>
+              <img
+                src="assets/images/icon-error.svg"
+                alt=""
+                class="form__img form__img--email"
+              />
+            </div>
+
+            <div class="form__container">
+              <input
+                type="password"
+                class="form__input"
+                placeholder="Password"
+              />
+              <p class="form__error form__error--pass">
+                Password cannot be empty
+              </p>
+              <img
+                src="assets/images/icon-error.svg"
+                alt=""
+                class="form__img form__img--pass"
+              />
+            </div>
+
             <button type="button" class="form__button">
               CLAIM YOUR FREE TRIAL
             </button>
