@@ -40,6 +40,11 @@ body {
   padding: 20px 50px 20px 50px;
   background-color: #5d54a3;
   cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.card--violet:hover {
+  background-color: #322a70;
 }
 
 .card__text {
@@ -127,6 +132,11 @@ body {
   letter-spacing: 3px;
   font-size: 0.8rem;
   cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.form__button:hover {
+  background-color: #117548;
 }
 
 .form__terms {
